@@ -9,5 +9,5 @@ def metodo_seleccion(lista)-> list:
             lista[i], lista[min_index] = lista[min_index], lista[i]
     return lista
 
-lista = [64, 25, 12, 22, 11]
+lista = [2,8,5,3,9,4,1]
 print(metodo_seleccion(lista))
